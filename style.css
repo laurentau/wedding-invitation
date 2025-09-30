@@ -9,14 +9,14 @@ body {
     max-width: 500px;
     border-radius: 15px 240px 0 0;
     box-shadow: 12px 13px 14px rgba(0,0, 0, 9);
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 img {
     width: 100%;
     overflow: hidden;
-    z-index: 12;
-    border-radius: 9px 219px 5px 8px;
+    z-index: 5;
+    border-radius: 9px 219px 5px 2px;
     box-shadow: 12px 13px 14px rgba(0,0 , 0,9);
 }
 
@@ -26,4 +26,40 @@ span {
 h2 {
     font-size: 54px;
     font-family: cursive;
+}
+.title {
+    margin-top: 50px;
+    font-size: 40px;
+    border-radius: 8px 90px;
+    box-shadow: 2px 2px 10px 3px rgba(0, 0,0, .5);
+}
+
+.details {
+    margin-bottom: 20px;
+}
+
+.moreDetails {
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0,.5);
+
+}
+P {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px solid;
+    color: #00c3ff;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.rsvp-btn {
+    background-color: rgb(177, 17, 105);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 3px rgba(7, 6, 9, .5);
+}
+.rsvp-btn:hover {
+    background-color: transparent;
+    color: black;
 }
